@@ -1,0 +1,26 @@
+name: "em-laptop"
+description: The image of sunblue-os for EM's laptop
+
+base-image: ghcr.io/ublue-os/bazzite-asus
+image-version: latest 
+
+modules:
+  - type: files
+    files:
+      - usr: /usr 
+
+  - type: rpm-ostree
+    repos:
+    install:
+      - supergfxctl
+    remove:
+
+  - type: default-flatpaks
+    notify: true 
+    system:
+      install:
+      remove:
+  - from-file: modules/mullvad-module.yml
+
+  - type: signing 
+

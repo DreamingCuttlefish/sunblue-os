@@ -22,8 +22,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - bazzite.yml
-          - bazzite-asus.yml
+          - em-desktop.yml
+          - em-laptop.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
