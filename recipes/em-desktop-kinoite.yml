@@ -1,0 +1,25 @@
+name: "em-desktop-kinoite"
+description: The image of sunblue-os for EM's desktop
+
+base-image: ghcr.io/ublue-os/kinoite-main
+image-version: latest 
+
+modules:
+  - type: files
+    files:
+      - usr: /usr 
+
+  - type: rpm-ostree
+    repos:
+    install:
+    remove:
+
+  - type: default-flatpaks
+    notify: true 
+    system:
+      install:
+      remove:
+  - from-file: modules/mullvad-module.yml
+
+  - type: signing 
+

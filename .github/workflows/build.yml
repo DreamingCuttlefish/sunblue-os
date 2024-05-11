@@ -24,6 +24,7 @@ jobs:
           # !! Add your recipes here 
           - em-desktop.yml
           - em-laptop.yml
+          - em-desktop-kinoite.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
