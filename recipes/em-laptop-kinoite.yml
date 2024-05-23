@@ -1,4 +1,4 @@
-name: "em-laptop"
+name: "em-laptop-kinoite"
 description: The kinoite image of sunblue-os for EM's laptop
 
 base-image: ghcr.io/ublue-os/kinoite-asus
