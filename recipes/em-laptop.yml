@@ -1,5 +1,5 @@
 name: "em-laptop"
-description: The image of sunblue-os for EM's laptop
+description: The bazzite image of sunblue-os for EM's laptop
 
 base-image: ghcr.io/ublue-os/bazzite-asus
 image-version: latest 

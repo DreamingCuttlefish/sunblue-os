@@ -1,7 +1,7 @@
-name: "em-desktop-kinoite"
-description: The kinoite image of sunblue-os for EM's desktop
+name: "em-laptop"
+description: The kinoite image of sunblue-os for EM's laptop
 
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/kinoite-asus
 image-version: latest 
 
 modules:
@@ -12,6 +12,7 @@ modules:
   - type: rpm-ostree
     repos:
     install:
+      - supergfxctl
     remove:
 
   - type: default-flatpaks

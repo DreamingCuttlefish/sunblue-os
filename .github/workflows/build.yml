@@ -1,7 +1,8 @@
 name: bluebuild
 on:
   schedule:
-    - cron: "00 18 * * *" # build at 17:00 UTC every day 
+    - cron: "00 18 * * *" # build at 18:00 UTC every day to ensure upstream bazzite images are finished building
+    #- cron: "00 17 * * *" # build at 17:00 UTC every day 
                           # (20 minutes after last ublue images start building)
   push:
     paths-ignore: # don't rebuild if only documentation has changed
@@ -23,8 +24,9 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - em-desktop.yml
-          - em-laptop.yml
           - em-desktop-kinoite.yml
+          - em-laptop.yml
+          - em-laptop-kinoite.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image

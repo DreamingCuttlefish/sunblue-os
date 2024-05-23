@@ -1,5 +1,5 @@
 name: "em-desktop"
-description: The image of sunblue-os for EM's desktop
+description: The bazzite image of sunblue-os for EM's desktop
 
 base-image: ghcr.io/ublue-os/bazzite
 image-version: latest 
