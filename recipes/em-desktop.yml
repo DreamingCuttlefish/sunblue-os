@@ -20,6 +20,7 @@ modules:
       install:
       remove:
   - from-file: modules/mullvad-module.yml
+  - from-file: modules/vscode-module.yml
 
   - type: signing 
 
