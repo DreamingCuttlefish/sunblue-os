@@ -1,10 +1,8 @@
 # sunblue-os &nbsp; [![build-ublue](https://github.com/dreamingcuttlefish/sunblue-os/actions/workflows/build.yml/badge.svg)](https://github.com/dreamingcuttlefish/sunblue-os/actions/workflows/build.yml)
 
-These are custom images for my computers based on Universal Blue and making use of the Bluebuild tooling
+These are custom images for my computers based on Universal Blue using Bluebuild to add customization
 
 ## Installation
-
-> **Warning**  
 
 To rebase an existing atomic Fedora installation to the latest build:
 
