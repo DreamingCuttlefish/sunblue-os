@@ -1,11 +1,11 @@
 # image name
-name: "laptop-kinoite"
+name: "laptop-bazzite"
 
 # image description
-description: The kinoite image of sunblue-os for my laptop
+description: The bazzite image of sunblue-os for my laptop
 
 # base image
-base-image: ghcr.io/ublue-os/kinoite-asus
+base-image: ghcr.io/ublue-os/bazzite-asus
 image-version: latest 
 
 # module configuration
