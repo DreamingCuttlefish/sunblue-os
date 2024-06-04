@@ -23,10 +23,10 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - em-desktop.yml
-          - em-desktop-kinoite.yml
-          - em-laptop.yml
-          - em-laptop-kinoite.yml
+          - desktop-bazzite.yml
+          - desktop-kinoite.yml
+          - laptop-bazzite.yml
+          - laptop-kinoite.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
