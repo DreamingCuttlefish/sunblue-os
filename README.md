@@ -46,6 +46,9 @@ cosign verify --key cosign.pub ghcr.io/dreamingcuttlefish/sunblue-os
 ## Credits
 
 https://fedoraproject.org/
+
 https://universal-blue.org/
+
 https://blue-build.org/
+
 
