@@ -1,10 +1,12 @@
-<p align="center">
-  <a href="https://pixabay.com/photos/ocean-sea-waves-dawn-dusk-1867285/"><img src="/misc/ocean-image-royaltyfree.jpg?raw=true" alt="sunblue"/></a>
-</p>
+
 
 # sunblue-os &nbsp; [![build-ublue](https://github.com/dreamingcuttlefish/sunblue-os/actions/workflows/build.yml/badge.svg)](https://github.com/dreamingcuttlefish/sunblue-os/actions/workflows/build.yml)
 
 These are custom images for my computers based on Universal Blue using Bluebuild to add customization
+
+<p align="center">
+  <a href="https://pixabay.com/photos/ocean-sea-waves-dawn-dusk-1867285/"><img src="/misc/ocean-image-royaltyfree.jpg?raw=true" alt="sunblue"/></a>
+</p>
 
 ## Installation
 
