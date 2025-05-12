@@ -10,7 +10,10 @@ image-version: latest
 
 # module configuration
 modules:
-  - type: rpm-ostree
+  - type: dnf
+    repos:
+      copr:
+        - lukenukem/asus-linux
     install:
       - supergfxctl
   - from-file: modules/mullvad-module.yml
