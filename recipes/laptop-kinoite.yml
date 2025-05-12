@@ -15,7 +15,8 @@ modules:
       copr:
         - lukenukem/asus-linux
     install:
-      - supergfxctl
+      packages:
+        - supergfxctl
   - from-file: modules/mullvad-module.yml
   - from-file: modules/vscode-module.yml
   - from-file: modules/fonts-module.yml
