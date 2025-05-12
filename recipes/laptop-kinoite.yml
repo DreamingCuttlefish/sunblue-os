@@ -10,7 +10,7 @@ image-version: latest
 
 # module configuration
 modules:
-  - from-file: modules/supergfxctl.yml
+  - from-file: modules/supergfxctl-module.yml
   - from-file: modules/mullvad-module.yml
   - from-file: modules/vscode-module.yml
   - from-file: modules/fonts-module.yml
