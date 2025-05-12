@@ -1,0 +1,11 @@
+type: dnf
+repos:
+  copr:
+    - lukenukem/asus-linux
+    - jhyub/supergfxctl-plasmoid
+install:
+  packages:
+    - asusctl
+    - supergfxctl
+    - supergfxctl-plasmoid
+

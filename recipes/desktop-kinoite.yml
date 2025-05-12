@@ -12,7 +12,6 @@ image-version: latest
 modules:
   - from-file: modules/mullvad-module.yml
   - from-file: modules/vscode-module.yml
-  - from-file: modules/fonts-module.yml
   - from-file: modules/ptyxis-module.yml
   - from-file: modules/utilities-module.yml
   - from-file: modules/cachyos-kernel-module.yml

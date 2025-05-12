@@ -1,3 +1,4 @@
-type: rpm-ostree
-install: 
-  - ptyxis
+type: dnf
+install:
+  packages:
+    - ptyxis

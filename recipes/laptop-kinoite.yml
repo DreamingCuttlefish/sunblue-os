@@ -10,10 +10,9 @@ image-version: latest
 
 # module configuration
 modules:
-  - from-file: modules/supergfxctl-module.yml
+  - from-file: modules/asus-module.yml
   - from-file: modules/mullvad-module.yml
   - from-file: modules/vscode-module.yml
-  - from-file: modules/fonts-module.yml
   - from-file: modules/ptyxis-module.yml
   - from-file: modules/utilities-module.yml
   - from-file: modules/cachyos-kernel-module.yml
