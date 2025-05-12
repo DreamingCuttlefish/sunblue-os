@@ -7,4 +7,3 @@ install:
   packages:
     - steam
     - steam-devices
-    - kernel-modules-extra
