@@ -1,6 +1,10 @@
-type: rpm-ostree
-install:
-  - btop
-  - fastfetch
-  - powertop
-  - tailscale
+type: dnf
+  install:
+    packages:
+      - powertop
+      - nvtop
+      - btop
+      - tailscale
+
+
+
