@@ -1,9 +1,10 @@
-modules: 
-  - type: dnf
-    optfix:
-      - Mullvad VPN
-    repos:
-      files:
-        - https://repository.mullvad.net/rpm/stable/mullvad.repo
-    install:
-      - mullvad-vpn
+type: dnf
+optfix:
+  - Mullvad VPN
+repos:
+  files:
+    - https://repository.mullvad.net/rpm/stable/mullvad.repo
+install: 
+  packages:
+    - mullvad-vpn
+
