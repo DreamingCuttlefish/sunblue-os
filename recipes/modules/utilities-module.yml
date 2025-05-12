@@ -5,4 +5,5 @@ install:
     - nvtop
     - btop
     - tailscale
+    - fastfetch
 
