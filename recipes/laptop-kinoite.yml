@@ -10,19 +10,11 @@ image-version: latest
 
 # module configuration
 modules:
-  - type: dnf
-    repos:
-      copr:
-        - lukenukem/asus-linux
-    install:
-      packages:
-        - supergfxctl
+  - from-file: modules/supergfxctl.yml
   - from-file: modules/mullvad-module.yml
   - from-file: modules/vscode-module.yml
   - from-file: modules/fonts-module.yml
   - from-file: modules/ptyxis-module.yml
   - from-file: modules/utilities-module.yml
-  #  - from-file: modules/lutris-module.yml
-  #  - from-file: modules/virtualization-module.yml
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

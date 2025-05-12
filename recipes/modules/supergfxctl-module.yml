@@ -1,0 +1,8 @@
+type: dnf
+  repos:
+    copr:
+      - lukenukem/asus-linux
+  install:
+   packages:
+      - supergfxctl
+
