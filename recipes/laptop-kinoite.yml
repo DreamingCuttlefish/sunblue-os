@@ -5,7 +5,7 @@ name: "laptop-kinoite"
 description: The kinoite image of sunblue-os for my laptop
 
 # base image
-base-image: ghcr.io/ublue-os/kinoite-asus
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest 
 
 # module configuration
