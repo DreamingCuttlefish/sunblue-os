@@ -6,9 +6,6 @@ modules:
     install:
       packages:
         - install-weak-deps=false
-      packages:
-        - steam
-        - kernel-modules-extra
-
-
-
+          packages:
+            - steam
+            - kernel-modules-extra
