@@ -1,0 +1,10 @@
+modules:
+  - type: dnf
+    repos:
+      nonfree: rpmfusion
+    install:
+      packages:
+        - steam
+        - steam-devices
+
+

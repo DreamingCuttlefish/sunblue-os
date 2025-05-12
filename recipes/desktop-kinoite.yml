@@ -16,5 +16,6 @@ modules:
   - from-file: modules/ptyxis-module.yml
   - from-file: modules/utilities-module.yml
   - from-file: modules/cachyos-kernel-module.yml
+  - from-file: modules/steam-module.yml
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
