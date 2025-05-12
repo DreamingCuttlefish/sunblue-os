@@ -19,6 +19,5 @@ modules:
         - kernel-core
         - kernel-modules
         - kernel-modules-core
-        - kernel-modules-extra
 
 
