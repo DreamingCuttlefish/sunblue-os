@@ -2,7 +2,7 @@
 
 # sunblue-os &nbsp; [![build-ublue](https://github.com/dreamingcuttlefish/sunblue-os/actions/workflows/build.yml/badge.svg)](https://github.com/dreamingcuttlefish/sunblue-os/actions/workflows/build.yml)
 
-These are OCI images intended for personal use based on the work of the Fedora Project and Universal Blue using Bluebuild tooling 
+Sunblue is a set of customized images for my personal use, based on the work of the Fedora Project and Universal Blue, built with Bluebuild tooling.
 
 <p align="center">
   <a href="https://pixabay.com/photos/ocean-sea-waves-dawn-dusk-1867285/"><img src="/misc/ocean-image-royaltyfree.jpg?raw=true" alt="sunblue"/></a>
@@ -33,7 +33,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## ISO
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+If built on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
 
 ## Verification
 
